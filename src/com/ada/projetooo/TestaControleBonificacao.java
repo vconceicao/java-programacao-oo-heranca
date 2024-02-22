@@ -20,6 +20,7 @@ public class TestaControleBonificacao {
 
         controleBonificacao.registrar(funcionario);
         controleBonificacao.registrar(gerente);
+        controleBonificacao.registrar("Uma String");
         System.out.println(controleBonificacao.getTotal());
 
 
